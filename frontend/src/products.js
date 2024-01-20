@@ -38,7 +38,7 @@ const products = [
     reviews: 10,
   },
   {
-    _id: "3",
+    _id: "4",
     name: "Pinnaple",
     image: "/images/Pine.JPG",
     description:
@@ -51,7 +51,7 @@ const products = [
     reviews: 22,
   },
   {
-    _id: "4",
+    _id: "5",
     name: "Passion Fruit",
     image: "/images/Passion.JPG",
     description:
@@ -64,7 +64,7 @@ const products = [
     reviews: 9,
   },
   {
-    _id: "5",
+    _id: "6",
     name: "Egg Plant",
     image: "/images/Eggplant.JPG",
     description:
@@ -77,7 +77,7 @@ const products = [
     reviews: 10,
   },
   {
-    _id: "6",
+    _id: "7",
     name: "African Eggplant",
     image: "/images/Aube.JPG",
     description:
@@ -90,7 +90,7 @@ const products = [
     reviews: 16,
   },
   {
-    _id: "7",
+    _id: "8",
     name: "Gee",
     image: "/images/Calabash.JPG",
     description:
@@ -103,7 +103,7 @@ const products = [
     reviews: 9,
   },
   {
-    _id: "8",
+    _id: "9",
     name: "Honey",
     image: "/images/fruits2.jpg",
     description:
