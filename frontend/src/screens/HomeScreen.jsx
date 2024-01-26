@@ -1,8 +1,18 @@
+import { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
-import products from "./../products";
+import axios from "axios";
 import Product from "../components/Product";
 
 function HomeScreen() {
+  const [products, setProduct] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      // You can await here
+      const { data } = await axios.get("/api/product");
+      setProduct(data["products"]);
+    };
+    fetchData();
+  }, []);
   const availableProducts = products.filter((pdt) => pdt.stock > 0);
   return (
     <>
